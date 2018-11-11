@@ -1,2 +1,2 @@
-# Website
-It's our official website!
+# ParadoxWebsite
+The Official Website for Paradox Labs
