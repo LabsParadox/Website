@@ -1,5 +1,5 @@
 /* General Blueprint Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @font-face {
 	font-family: 'bpicons';
 	src:url('../fonts/bpicons/bpicons.eot');
@@ -36,12 +36,12 @@ body {
 }
 
 a {
-	color: #f0f0f0;
+	color: #ff385f;;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #000;
+	color: #fff;
 }
 
 .container > header {
@@ -198,8 +198,8 @@ a:hover {
 /* Parents and Children (Grids & Boxes) */
 
 .parent {
-	margin: 0 0 25% 25%;
-	width: 50%;
+	margin: 0 0 30% 30%;
+	width: 40%;
 	/*border: 5px solid #FFF;*/
 	float: left;
 }
@@ -222,4 +222,99 @@ a:hover {
 	float: left;
 }
 
-/* Experimentation */
+/* Shiny Button */
+
+.shiny-btn {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 200%;
+  display: inline-block;
+  text-align: center;
+  color: #00d0ff;
+  background-color: rgba(19, 19, 19, 0.5);
+  border: 1px solid #00d0ff;
+  border-radius: 5px;
+  line-height: 3em;
+  padding-left: 5em;
+  padding-right: 5em;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.shiny-btn:hover {
+  color: white;
+  box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
+  background-color: #00d0ff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.shiny-btn:hover:before {
+  -webkit-animation: shine 0.5s 0s linear;
+  -moz-animation: shine 0.5s 0s linear;
+  animation: shine 0.5s 0s linear;
+}
+.shiny-btn:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+.shiny-btn:before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #303030;
+  box-shadow: 0 0 15px 3px #303030;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@-webkit-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@-moz-keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+@keyframes shine {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
