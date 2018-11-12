@@ -1,0 +1,147 @@
+/*---------------------------------- Tablet ----------------------------------*/
+@media screen and (max-width: 65em) {
+	
+	body {
+		/*background-image: url();
+		background-color: #303030;*/
+	}
+
+	.parent {
+		margin: 0 0 10% 10%;
+		width: 80%;
+		/*border: 5px solid #FFF;*/
+		float: left;
+	}
+
+	.words {
+		font-size: 4vw;
+		border-radius: 15px;
+		padding: 10px;
+		margin-top: 18vw;
+	}
+
+	.info {
+		font-size: 4vw;
+		border-radius: 15px;
+		padding: 10px;
+	}
+
+	.shiny-btn {
+		font-size: 3vw;
+	}
+
+	/* Social Media Icons */
+	.twins i {
+		font-size: 6vw;
+		border-radius: 15px;
+		padding: 25%;
+	}
+
+	.quad i {
+		font-size: 6vw;
+		border-radius: 15px;
+		padding: 25%;
+	}
+}
+
+/*---------------------------------- Big Phone ----------------------------------*/
+@media screen and (max-width: 51.4375em) {
+	
+	body {
+		/*background-image: url();
+		background-color: yellow;*/
+	}
+
+	.parent {
+		margin: 0 0 10% 10%;
+		width: 80%;
+		/*border: 5px solid #FFF;*/
+	}
+
+	.words {
+		font-size: 4vw;
+		border-radius: 10px;
+		padding: 10px;
+	}
+
+	.info {
+		font-size: 4vw;
+		border-radius: 10px;
+		padding: 10px;
+	}
+
+	.shiny-btn {
+		font-size: 3vw;
+	}
+
+}
+
+/*---------------------------------- Small Phone ----------------------------------*/
+@media screen and (max-width: 25em){
+
+	body {
+		/*background-image: url();
+		background-color: green;*/
+	}
+
+	.parent {
+		margin: 0 0 10% 10%;
+		width: 80%;
+		/*border: 5px solid #FFF;*/
+		float: left;
+	}
+
+	.words {
+		font-size: 5vw;
+		border-radius: 10px;
+		padding: 10px;
+		margin-top: 25vw;
+	}
+
+	#topic {
+		padding: 30px;
+		margin-bottom: 10vw;
+	}
+
+	.info {
+		font-size: 5vw;
+		border-radius: 10px;
+		padding: 10px;
+	}
+
+	.shiny-btn {
+		font-size: 3vw;
+	}
+
+	.twins {
+		width: 50%;
+		padding: 1em;
+		float: left;
+	}
+
+	.twins i {
+		font-size: 10vw;
+		border-radius: 10px;
+		padding: 25%;
+	}
+
+	/* Changes quad properties to a twin */
+	.quad {
+		width: 50%;
+		padding: 1em;
+		float: left;
+	}
+
+	/* Social Media Icons */
+	.quad i {
+		font-size: 10vw;
+		border-radius: 10px;
+		padding: 25%;
+	}
+
+	/*very specific fixes */
+	#our-work {
+		margin-top: 60vw;
+	}
+	
+}

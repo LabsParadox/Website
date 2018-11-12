@@ -211,10 +211,6 @@ a:hover {
 	margin: .5em auto;
 }
 
-.child p {
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
 .twins {
 	width: 50%;
 	padding: 1em;
@@ -222,12 +218,96 @@ a:hover {
 	float: left;
 }
 
+.quad {
+	width: 25%;
+	padding: 25px 10px 25px 10px;
+	/*border: 4px solid red;*/
+	float: left;
+}
+
+.quad i {
+	align-content: center;
+	width: 100%;
+	font-size: 3vw;
+	color: #fff;
+	background-color: #252525;
+	border-radius: 15px;
+	padding: 25%;
+}
+
+.quad a i:hover {
+	color: #252525;
+	background-color: #fff;
+}
+
+.twins i {
+	align-content: center;
+	width: 100%;
+	font-size: 3vw;
+	color: #fff;
+	background-color: #252525;
+	border-radius: 15px;
+	padding: 25%;
+}
+
+.twins a i:hover {
+	color: #252525;
+	background-color: #fff;
+}
+
+/* Keeps all Font Awesome Icons centered */
+.icon{
+    text-align: center;
+}
+
+/* Specifically to put in the gradients for the instagram icon */
+.fa-instagram {
+	background: #f9ed32; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #f9ed32 0%, #ee2a7b 63%, #002aff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #f9ed32 0%,#ee2a7b 63%,#002aff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #f9ed32 0%,#ee2a7b 63%,#002aff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ed32', endColorstr='#002aff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* Text formatting for bubbles */
+
+#topic {
+	margin-top: 4vw;
+	padding: 50px;
+}
+
+.words {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2vw;
+	color: #252525;
+	background-color: #FFF;
+	border-radius: 30px;
+	padding: 10px 25px 10px 25px;
+}
+
+.info {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2vw;
+	color: #FFF;
+	background-color: #00D0FF;
+	border-radius: 30px;
+	padding: 10px 25px 10px 25px;
+}
+
+.info:hover {
+	color: #252525;
+}
+
+.break {
+	margin: 8vw;
+}
+
 /* Shiny Button */
 
 .shiny-btn {
+  font-size: 1.5vw;
   text-decoration: none;
   font-weight: 300;
-  font-size: 200%;
   display: inline-block;
   text-align: center;
   color: #00d0ff;
@@ -250,71 +330,12 @@ a:hover {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.shiny-btn:hover:before {
-  -webkit-animation: shine 0.5s 0s linear;
-  -moz-animation: shine 0.5s 0s linear;
-  animation: shine 0.5s 0s linear;
-}
+
 .shiny-btn:active {
   box-shadow: 0 0 0 0 transparent;
   -webkit-transition: box-shadow 0.2s ease-in;
   -moz-transition: box-shadow 0.2s ease-in;
   transition: box-shadow 0.2s ease-in;
 }
-.shiny-btn:before {
-  content: '';
-  display: block;
-  width: 0px;
-  height: 86%;
-  position: absolute;
-  top: 7%;
-  left: 0%;
-  opacity: 0;
-  background: #303030;
-  box-shadow: 0 0 15px 3px #303030;
-  -webkit-transform: skewX(-20deg);
-  -moz-transform: skewX(-20deg);
-  -ms-transform: skewX(-20deg);
-  -o-transform: skewX(-20deg);
-  transform: skewX(-20deg);
-}
 
-@-webkit-keyframes shine {
-  from {
-    opacity: 0;
-    left: 0%;
-  }
-  50% {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    left: 100%;
-  }
-}
-@-moz-keyframes shine {
-  from {
-    opacity: 0;
-    left: 0%;
-  }
-  50% {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    left: 100%;
-  }
-}
-@keyframes shine {
-  from {
-    opacity: 0;
-    left: 0%;
-  }
-  50% {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    left: 100%;
-  }
 }
