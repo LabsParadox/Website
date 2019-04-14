@@ -18,7 +18,7 @@ form.addEventListener('submit', e => {
     function changeValue()
     {
 
-        var luvMessage = ['You\'re awesome!','Now we\'re cooking with gas!','Rodger Dodger!','Hacking Complete!','Thanks for subscribing!','Now THIS is epic!'];
+        var luvMessage = ['You\'re awesome!','Now we\'re cooking with gas!','Rodger Dodger!','HaCkiNG ThE mAiNFraMe!','Thanks for subscribing!','Now THIS is epic!'];
 
         // Changes the value of the button
         document.getElementById('testButt').value = luvMessage[Math.floor(Math.random() * luvMessage.length)];
