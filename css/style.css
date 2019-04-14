@@ -9678,20 +9678,6 @@ textarea.form-control {
         transform: scale(0.98);
         }
 
-@media (max-width: 990px)
-{ #paradoxHero
-  {
-      width: 30%;
-  } 
-}
-
-@media (max-width: 1300px)
-{ #paradoxHero
-  {
-      width: 20%;
-  } 
-}
-
 #paradoxHero
 {
   display: block;
@@ -9700,4 +9686,11 @@ textarea.form-control {
   width: 10%;
   margin-top: 10em;
   margin-bottom: 50em;
+}
+
+@media (max-width: 1300px)
+{ #paradoxHero
+  {
+      width: 20%;
+  } 
 }
