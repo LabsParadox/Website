@@ -17,7 +17,6 @@ form.addEventListener('submit', e => {
 //Generate a random word for the subscribe button
     function changeValue()
     {
-
         var luvMessage = ['You\'re awesome!','Now we\'re cooking with gas!','Rodger Dodger!','HaCkiNG ThE mAiNFraMe!','Thanks for subscribing!','Now THIS is epic!'];
 
         // Changes the value of the button
