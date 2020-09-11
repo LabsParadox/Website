@@ -33,6 +33,10 @@ body {
   margin-right: 20em;
 }
 
+.bot-text{
+  margin-top: 10%;
+}
+
 @media(max-width: 767px)
 {
   .nav-icon{
@@ -62,9 +66,13 @@ body {
   }
 
   .lilgap
-{
+  {
   margin-bottom: 25%;
-}
+  }
+
+  .bot-text{
+  margin-top: 20%;
+  }
 }
 
 .active-item{
